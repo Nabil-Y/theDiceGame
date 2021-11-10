@@ -10,7 +10,7 @@ function rollDice() {
     } else if ( secondDice > firstDice) {
         document.querySelector("h1").textContent = "Player 2 wins!";
     } else {
-        document.querySelector("h1").textContent = "Draw";
+        document.querySelector("h1").textContent = "It's a draw!";
     }
 
 }

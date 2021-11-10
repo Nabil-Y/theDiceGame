@@ -34,8 +34,9 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
+  transition: all ease 0.5s;
 }
 
 p {
@@ -66,4 +67,24 @@ button {
 
 button:hover {
   background: #55e0b2;
+}
+
+@media screen and (max-width:800px) {
+  h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .dice {
+    width: 50%;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
